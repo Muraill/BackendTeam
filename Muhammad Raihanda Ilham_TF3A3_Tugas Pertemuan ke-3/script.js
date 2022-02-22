@@ -30,6 +30,8 @@ function getHasil(comp, player){
         }, 100)
     }
 
+        let win = 1;
+        let lose = 1;
 
 
     const pilihan = document.querySelectorAll('li img');
@@ -38,6 +40,8 @@ function getHasil(comp, player){
             const PilihanComputer = getPilihanComputer();
         const pilihanPlayer = pil.className;
         const hasil = getHasil(PilihanComputer, pilihanPlayer);
+        const scorePlayer = document.querySelector('.score-player');
+		const scoreComp = document.querySelector('.score-comp');
 
         putar();
         setTimeout(function(){
@@ -46,12 +50,17 @@ function getHasil(comp, player){
 
         const info = document.querySelector('.info');
         info.innerHTML = hasil;
+
+        //score
+		if(hasil == 'MENANG!'){
+		scorePlayer.innerHTML = win++;
+		}else if(hasil == 'KALAH!'){
+		scoreComp.innerHTML =lose++;
+		}
         },1000);
 
         });
     });
-
-    console.log(pil);
 
 
 // const pGajah = document.querySelector('gajah');

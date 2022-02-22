@@ -65,6 +65,17 @@ h1 {
     text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: align;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
 .atas{
     width: 100px;
     height: 30px;
@@ -121,6 +132,22 @@ h1 {
     box-sizing: border-box;
     border-radius: 40px 40px 0 0;
 }
+.score-comp{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border:5px solid salmon;
+	position: absolute;
+	border-radius: 50%;
+	left: 30px;
+	bottom: 30px;
+	z-index: 9999;
+	color: salmon;
+	font-size: 26px;
+	text-align: center;
+	line-height: 30px;
+}
+
 
 .area-player {
     width: 560px;
@@ -130,6 +157,21 @@ h1 {
     background: linear-gradient(to bottom, rgb(106, 155, 230) 0%, rgba(145,232,66,1) 100%);
     position: relative;
     border-radius: 0 0 40px 40px;
+}
+.score-player{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border:5px solid salmon;
+	position: absolute;
+	border-radius: 50%;
+	right: 10px;
+	top: 10px;
+	z-index: 9999;
+	color: salmon;
+	font-size: 26px;
+	text-align: center;
+	line-height: 30px;
 }
 
 .info {
