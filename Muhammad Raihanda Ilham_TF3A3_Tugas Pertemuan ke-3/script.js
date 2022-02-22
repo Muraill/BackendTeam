@@ -57,6 +57,9 @@ function getHasil(comp, player){
 		}else if(hasil == 'KALAH!'){
 		scoreComp.innerHTML =lose++;
 		}
+        if(hasil == 10){
+            
+        }
         },1000);
 
         });
